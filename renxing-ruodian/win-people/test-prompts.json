@@ -1,0 +1,44 @@
+[
+  {
+    "prompt": "下周要去参加一个行业交流会，我社恐，怎么跟陌生人打开话题？",
+    "expected_skills": ["win-people"],
+    "test_type": "should_call",
+    "reason": "社交场景——应调用赢得他人喜欢的方法"
+  },
+  {
+    "prompt": "我记不住客户的名字，每次见面都很尴尬",
+    "expected_skills": ["win-people"],
+    "test_type": "should_call",
+    "reason": "记住名字方法——核心触发"
+  },
+  {
+    "prompt": "同事总在会议上打断我说话，我很不爽",
+    "expected_skills": ["win-people"],
+    "test_type": "boundary",
+    "reason": "涉及倾听话题的边界——对方不倾听，应用倾听方法从自身出发"
+  },
+  {
+    "prompt": "如何用Excel做数据透视表？",
+    "expected_skills": [],
+    "test_type": "bait",
+    "reason": "纯技术问题"
+  },
+  {
+    "prompt": "我该买哪款手机？",
+    "expected_skills": [],
+    "test_type": "bait",
+    "reason": "消费决策，不涉及人际关系"
+  },
+  {
+    "prompt": "新认识一个很厉害的创业者，我想跟他建立联系",
+    "expected_skills": ["win-people"],
+    "test_type": "should_call",
+    "reason": "人脉拓展——应用真诚关心、谈对方兴趣"
+  },
+  {
+    "prompt": "我太太说我从来不关心她",
+    "expected_skills": ["win-people", "family-harmony"],
+    "test_type": "boundary",
+    "reason": "跨skill场景，应调用关心方法或家庭和睦"
+  }
+]

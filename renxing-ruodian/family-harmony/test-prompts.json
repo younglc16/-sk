@@ -1,0 +1,44 @@
+[
+  {
+    "prompt": "结婚十年了，感觉和老婆没什么话说了，怎么办？",
+    "expected_skills": ["family-harmony"],
+    "test_type": "should_call",
+    "reason": "婚姻关系——应调用家庭和睦方法"
+  },
+  {
+    "prompt": "我老婆总爱唠叨，从早说到晚，我快疯了",
+    "expected_skills": ["family-harmony"],
+    "test_type": "should_call",
+    "reason": "唠叨问题——方法一：切勿喋喋不休"
+  },
+  {
+    "prompt": "老公总把臭袜子扔在地上，我说了很多次都不改",
+    "expected_skills": ["family-harmony"],
+    "test_type": "should_call",
+    "reason": "不批评+不改造方法"
+  },
+  {
+    "prompt": "比特币现在值得买吗？",
+    "expected_skills": [],
+    "test_type": "bait",
+    "reason": "投资问题，不涉及家庭关系"
+  },
+  {
+    "prompt": "推荐一个好用的笔记软件",
+    "expected_skills": [],
+    "test_type": "bait",
+    "reason": "工具推荐，不涉及家庭"
+  },
+  {
+    "prompt": "我老公出轨了，我该怎么办？",
+    "expected_skills": [],
+    "test_type": "boundary",
+    "reason": "严重婚姻危机——超出skill边界，应建议专业咨询而非仅提供沟通技巧"
+  },
+  {
+    "prompt": "伴侣总加班到很晚，我觉得被冷落了",
+    "expected_skills": ["family-harmony"],
+    "test_type": "boundary",
+    "reason": "边界测试——涉及沟通但不严重，应调用方法二：给对方空间"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "prompt": "客户对我们的报价有异议，我该怎么说服他接受？",
+    "expected_skills": ["win-agreement"],
+    "test_type": "should_call",
+    "reason": "商业谈判——说服场景"
+  },
+  {
+    "prompt": "跟朋友因为政治观点吵起来了，现在关系很僵",
+    "expected_skills": ["win-agreement"],
+    "test_type": "should_call",
+    "reason": "避免争论——核心触发场景"
+  },
+  {
+    "prompt": "老板提出了一个我觉得有问题的方案，怎么表达不同意见又不惹他生气？",
+    "expected_skills": ["win-agreement"],
+    "test_type": "should_call",
+    "reason": "尊重意见方法——表达不同意见的技巧"
+  },
+  {
+    "prompt": "我的提案被否决了，对方根本不给我解释的机会",
+    "expected_skills": ["win-agreement"],
+    "test_type": "boundary",
+    "reason": "边界测试——对方已拒绝，如何运用友善开场和让对方多说话来重新打开对话"
+  },
+  {
+    "prompt": "如何重置我的密码？",
+    "expected_skills": [],
+    "test_type": "bait",
+    "reason": "纯操作问题"
+  },
+  {
+    "prompt": "推荐几本好看的科幻小说",
+    "expected_skills": [],
+    "test_type": "bait",
+    "reason": "推荐书籍，不涉及说服"
+  },
+  {
+    "prompt": "室友总是不洗碗，说了很多次也不听",
+    "expected_skills": ["win-agreement"],
+    "test_type": "boundary",
+    "reason": "说服他人改变习惯——边界场景，既需要避免争论又需要激发对方意愿"
+  }
+]

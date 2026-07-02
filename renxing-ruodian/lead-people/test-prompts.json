@@ -1,0 +1,44 @@
+[
+  {
+    "prompt": "新来的下属做事马虎，我该怎么指出他的问题又不打击他？",
+    "expected_skills": ["lead-people"],
+    "test_type": "should_call",
+    "reason": "管理反馈——应调用领导他人方法"
+  },
+  {
+    "prompt": "同事在会议上出了个大错，所有人都看着他",
+    "expected_skills": ["lead-people"],
+    "test_type": "should_call",
+    "reason": "保全对方面子——核心场景"
+  },
+  {
+    "prompt": "如何提升团队士气？",
+    "expected_skills": ["lead-people"],
+    "test_type": "should_call",
+    "reason": "赞美进步+赋予好名声——激励团队场景"
+  },
+  {
+    "prompt": "今天天气怎么样？",
+    "expected_skills": [],
+    "test_type": "bait",
+    "reason": "纯事实查询"
+  },
+  {
+    "prompt": "怎么煮意大利面？",
+    "expected_skills": [],
+    "test_type": "bait",
+    "reason": "烹饪问题，不涉及领导力"
+  },
+  {
+    "prompt": "实习生把客户数据搞丢了，我该骂他还是帮他？",
+    "expected_skills": ["lead-people"],
+    "test_type": "boundary",
+    "reason": "严重失误——批评三明治的边界测试，如何既严肃处理问题又保留对方尊严"
+  },
+  {
+    "prompt": "孩子考试不及格，我想让他下次努力又不想伤害他",
+    "expected_skills": ["lead-people"],
+    "test_type": "boundary",
+    "reason": "亲子教育场景——领导方法可适用于任何指导关系"
+  }
+]

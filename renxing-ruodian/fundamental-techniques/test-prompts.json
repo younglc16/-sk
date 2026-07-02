@@ -1,0 +1,44 @@
+[
+  {
+    "prompt": "我男朋友总是乱扔袜子，我每次都说他，但他就是不改，我该怎么办？",
+    "expected_skills": ["fundamental-techniques"],
+    "test_type": "should_call",
+    "reason": "涉及批评→防御机制，应调用不批评原则"
+  },
+  {
+    "prompt": "我的团队刚完成了一个重要项目，我想激励他们继续努力",
+    "expected_skills": ["fundamental-techniques"],
+    "test_type": "should_call",
+    "reason": "明显的赞赏激励场景"
+  },
+  {
+    "prompt": "我想让同事帮我处理一份报告，但他看起来很忙",
+    "expected_skills": ["fundamental-techniques"],
+    "test_type": "should_call",
+    "reason": "激发他人渴望原则——从对方需求出发"
+  },
+  {
+    "prompt": "1+1等于几？",
+    "expected_skills": [],
+    "test_type": "bait",
+    "reason": "纯事实问题，不应触发任何人际关系skill"
+  },
+  {
+    "prompt": "我讨厌那个新来的经理，他什么都不懂",
+    "expected_skills": [],
+    "test_type": "bait",
+    "reason": "纯情绪发泄无具体需求，不应触发"
+  },
+  {
+    "prompt": "我想学Python编程，有什么推荐的书？",
+    "expected_skills": [],
+    "test_type": "bait",
+    "reason": "技能学习类问题，不涉及人际关系"
+  },
+  {
+    "prompt": "孩子不小心打翻了牛奶，我正要骂他，但想起某本书里说的……",
+    "expected_skills": ["fundamental-techniques"],
+    "test_type": "boundary",
+    "reason": "孩子犯错——是否该批评？边界模糊，应给出不批评但引导的建议"
+  }
+]
